@@ -1,6 +1,7 @@
 <?php
 
 // Файлы phpmailer
+require __DIR__ . '/vendor/autoload.php';
 require __DIR__ . '/php/PHPMailer.php';
 require __DIR__ . '/php/SMTP.php';
 require __DIR__ . '/php/Exception.php';
@@ -82,20 +83,20 @@ function writeResponseLog($response)
 //     exit();
 // }
 
-// Функция для записи логов
-function writeLog($message)
-{
-    global $logFile;
-    $logMessage = "[" . date("Y-m-d H:i:s") . "] " . $message . PHP_EOL;
-    file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
-}
+// // Функция для записи логов
+// function writeLog($message)
+// {
+//     global $logFile;
+//     $logMessage = "[" . date("Y-m-d H:i:s") . "] " . $message . PHP_EOL;
+//     file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
+// }
 
-function writeResponseLog($response)
-{
-    global $logFile;
-    $logMessage = "[" . date("Y-m-d H:i:s") . " form_by_survey] Response: " . $response . PHP_EOL;
-    file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
-}
+// function writeResponseLog($response)
+// {
+//     global $logFile;
+//     $logMessage = "[" . date("Y-m-d H:i:s") . " form_by_survey] Response: " . $response . PHP_EOL;
+//     file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
+// }
 
 // Обработка данных формы
 $data = [];
