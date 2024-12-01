@@ -410,7 +410,7 @@ Template Name: Home
 
                                     <input id="radio-jazz" type="checkbox" name="radio-music[]" data-value="" value="jazz"
                                         class="in10-input-radio">
-                                    <label for="radio-jazz" class="in10-radio__label">Джас</label>
+                                    <label for="radio-jazz" class="in10-radio__label">Джаз</label>
                                 </div>
                                 <!-- Вопрос 6 -->
                                 <div class="in10-survey__item_4">
