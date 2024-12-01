@@ -180,6 +180,8 @@ $transportResponse = $transportInput === 'yes' ? "Да" : ($transportInput === '
 
 //Отправка в таблицу
 putenv('GOOGLE_APPLICATION_CREDENTIALS=' . __DIR__ . '/secret_new.json');
+use Google\Client;
+use Google\Service\Sheets;
 
 $client = new Client();
 $client->useApplicationDefaultCredentials();
