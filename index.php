@@ -428,6 +428,7 @@ Template Name: Home
                         <div class="in10-survey__box">
                             <input type="text" name="form[name]" data-value="" placeholder="Заполните Ф.И.О"
                                 class="in10-input _req">
+                                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                             <button type="submit" class="in10-survey__btn in10-btn">Отправить</button>
                         </div>
                     </form>
@@ -531,8 +532,7 @@ $query = new WP_Query($args);
                 <input type="text" name="form-name_book" data-value="" placeholder="Ваше Имя" class="in10-input_b _req">
                 <div class="in10-book__message">
                     <textarea name="form-message" placeholder="Ваше пожелание:" class="in10-message-text" rows="8"></textarea>
-                </div>
-                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+                </div>            
                 <button type="submit" class="in10-book__btn in10-btn"><span>Отправить</span></button>
             </div>
         </form>
