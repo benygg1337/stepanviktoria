@@ -104,7 +104,7 @@ $fioInput = trim($_POST['form']['name'] ?? ""); // Получаем и очищ�
 
 // Проверка ФИО
 if (!empty($fioInput)) {
-    $fioResponse = "Ваше ФИО: " . htmlspecialchars($fioInput);
+    $fioResponse = htmlspecialchars($fioInput);
 } else {
     $fioResponse = "Ошибка: ФИО не было заполнено.";
 }
@@ -198,7 +198,7 @@ try {
 
     // Данные для добавления
     $values = [
-        [$fioResponse, $registryResponse, $visitResponse, $dishResponse, $drinkResponse, $musicResponse, $transportResponse, $date_time]
+        [$fioResponse, $visitResponse, $registryResponse,  $dishResponse, $drinkResponse, $musicResponse, $transportResponse, $date_time]
     ];
     
     $range = 'A2'; 
