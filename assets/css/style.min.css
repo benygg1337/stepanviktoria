@@ -682,38 +682,49 @@ ol.counter li:before {
   background: url("../img/icons/close.png") 0 0 no-repeat;
 }
 .popup_thanks .popup__body {
-  max-width: 480px;
-  padding: 20px 75px 30px 75px;
-  background: #F2EEEB;
+  max-width: 780px;
+  padding: 40px 75px 50px 75px;
+  background: #F8F8F8;
   text-align: center;
   position: relative;
 }
 .popup_thanks .popup__body:after {
   content: "";
   position: absolute;
-  width: 135px;
-  height: 175px;
-  top: 0;
-  right: 0;
-  background: url("../img/decor07.webp") center/cover no-repeat;
+  width: 60px;
+  height: 60px;
+  top: 20px;
+  left: 30px;
+  background: url("../img/invitation_no_10/decor02.svg") center/cover no-repeat;
+}
+@media (max-width: 767.98px) {
+  .popup_thanks .popup__body:after {
+    width: 40px;
+    height: 40px;
+    top: 15px;
+    left: 15px;
+  }
 }
 .popup_thanks .popup__body:before {
   content: "";
   position: absolute;
-  width: 125px;
-  height: 220px;
-  bottom: 0;
-  left: 0;
-  background: url("../img/decor08.webp") center/cover no-repeat;
+  width: 40px;
+  height: 40px;
+  bottom: 40px;
+  right: 50px;
+  background: url("../img/invitation_no_10/decor04.svg") center/cover no-repeat;
+}
+@media (max-width: 767.98px) {
+  .popup_thanks .popup__body:before {
+    width: 25px;
+    height: 25px;
+    bottom: 20px;
+    right: 20px;
+  }
 }
 @media (max-width: 767.98px) {
   .popup_thanks .popup__body {
-    padding: 20px 45px 30px 45px;
-  }
-}
-@media (max-width: 479.98px) {
-  .popup_thanks .popup__body {
-    padding: 20px 15px 30px 15px;
+    padding: 20px 30px 30px 30px;
   }
 }
 .popup_in10-gallery .popup__body {
@@ -876,6 +887,42 @@ ol.counter li:before {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.thanks__text {
+  color: #4E4E4E;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0px 0px 50px 0px;
+}
+.thanks__text p {
+  margin: 0px 0px 15px 0px;
+}
+.thanks__text p:last-child {
+  margin: 0px 0px 0px 0px;
+}
+@media (max-width: 991.98px) {
+  .thanks__text {
+    font-size: 18px;
+    margin: 0px 0px 40px 0px;
+  }
+}
+@media (max-width: 767.98px) {
+  .thanks__text {
+    font-size: 16px;
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+.thanks__title {
+  margin: 0px 0px 40px 0px !important;
+  display: block !important;
+}
+@media (max-width: 767.98px) {
+  .thanks__title {
+    margin: 0px 0px 25px 0px !important;
+  }
 }
 
 /*
@@ -2464,6 +2511,7 @@ ol.counter li:before {
   position: absolute;
   top: 0%;
   right: -20%;
+  pointer-events: none;
 }
 @media (max-width: 767.98px) {
   .in10-survey:after {
@@ -2977,11 +3025,9 @@ ol.counter li:before {
 }
 .in10-input_b._error {
   border-bottom: #c62006 solid 2px;
-  color: #c62006;
 }
 .in10-input._error {
   border-bottom: #c62006 solid 3px;
-  color: #c62006;
 }
 
 textarea.in10-input {
@@ -3219,6 +3265,7 @@ textarea.in10-input {
   top: 200px;
   left: 0;
   background: url("../img/invitation_no_10/book01.png") 0 0 no-repeat;
+  pointer-events: none;
 }
 @media (max-width: 991.98px) {
   .in10-book:after {
@@ -3325,7 +3372,6 @@ textarea.in10-input {
   padding: 26px 0px 10px 0px;
   height: 92px;
   display: flex;
-  align-items: center;
   background-color: #fff;
   border-radius: 95px;
   margin: 0px 0px 0px 30px;
@@ -3336,6 +3382,7 @@ textarea.in10-input {
     margin: 10px 0px 10px 0px;
     height: 52px;
     background-color: rgb(248, 248, 248);
+    align-items: center;
   }
 }
 .in10-book__btn {
@@ -3371,6 +3418,7 @@ textarea.in10-input {
   left: 50%;
   transform: translate(-50%, -50%);
   background: url("../img/invitation_no_10/btn.png") center/cover no-repeat;
+  transition: all 0.5s ease 0s;
 }
 @media (max-width: 767.98px) {
   .in10-book__btn {
@@ -3387,6 +3435,11 @@ textarea.in10-input {
     left: auto;
     right: 0px;
     transform: translate(0%, -50%);
+  }
+}
+@media (min-width: 991.98px) {
+  .in10-book__btn:hover:after {
+    transform: translate(-50%, -50%) scale(0.9);
   }
 }
 
@@ -3516,7 +3569,7 @@ textarea.in10-input {
   background: rgba(255, 255, 255, 0);
   color: #4E4E4E;
   border-radius: 95px;
-  padding: 15px 120px 10px 35px;
+  padding: 10px 120px 10px 35px;
   line-height: 120%;
 }
 @media (max-width: 1280px) {
@@ -3527,7 +3580,7 @@ textarea.in10-input {
 @media (max-width: 767.98px) {
   .in10-message-text {
     height: 52px;
-    padding: 7px 120px 10px 35px;
+    padding: 10px 120px 10px 35px;
   }
 }
 
