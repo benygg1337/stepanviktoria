@@ -136,7 +136,7 @@ $selectedDishes = array_map(function ($value) use ($dishChoices) {
 $dishResponse = !empty($selectedDishes) ? implode(", ", $selectedDishes) : "Не выбрано";
 
 // Вопрос 3: Предпочтения в напитках
-$drinkInput = $_POST['radio-drinks'] ?? [];
+$drinkInput = $_POST['form-drinks'] ?? [];
 if (!is_array($drinkInput)) {
     $drinkInput = [$drinkInput];
 }
@@ -144,7 +144,7 @@ $drinkChoices = [
     'wine' => 'Вино',
     'champagne' => 'Шампанское',
     'cognac' => 'Коньяк',
-    'alcoholic' => 'Виски',
+    'whiskey' => 'Виски',
     'vodka' => 'Водка',
     'no-alcoholic' => 'Безалкогольное'
 ];
@@ -158,7 +158,7 @@ $registryInput = $_POST['radio-registry'] ?? null;
 $registryResponse = $registryInput === 'yes' ? "Да" : ($registryInput === 'no' ? "Нет" : "Не выбрано");
 
 // Вопрос 5: Предпочтения в музыке
-$musicInput = $_POST['radio-music'] ?? [];
+$musicInput = $_POST['form-music'] ?? [];
 if (!is_array($musicInput)) {
     $musicInput = [$musicInput];
 }

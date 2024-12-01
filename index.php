@@ -336,46 +336,46 @@ Template Name: Home
                                 <!-- Вопрос 2 -->
                                 <div class="in10-survey__item_1">
                                     <div class="in10-survey__subtitle">Что Вы предпочитаете из еды?</div>
-                                    <input id="radio-meat" type="checkbox" name="form-dish" data-value="" value="meat"
+                                    <input id="radio-meat" type="checkbox" name="form-dish[]" data-value="" value="meat"
                                         class="in10-input-radio">
                                     <label for="radio-meat" class="in10-radio__label">Мясо</label>
 
-                                    <input id="radio-fish" type="checkbox" name="form-dish" data-value="" value="fish"
+                                    <input id="radio-fish" type="checkbox" name="form-dish[]" data-value="" value="fish"
                                         class="in10-input-radio">
                                     <label for="radio-fish" class="in10-radio__label">Рыба</label>
 
-                                    <input id="radio-bird" type="checkbox" name="form-dish" data-value="" value="bird"
+                                    <input id="radio-bird" type="checkbox" name="form-dish[]" data-value="" value="bird"
                                         class="in10-input-radio">
                                     <label for="radio-bird" class="in10-radio__label">Птица</label>
 
-                                    <input id="radio-vegetables" type="checkbox" name="form-dish" data-value=""
+                                    <input id="radio-vegetables" type="checkbox" name="form-dish[]" data-value=""
                                         value="vegetables" class="in10-input-radio">
                                     <label for="radio-vegetables" class="in10-radio__label">Овощи</label>
                                 </div>
                                 <!-- Вопрос 3 -->
                                 <div class="in10-survey__item_2">
                                     <div class="in10-survey__subtitle">Что предпочитаете из напитков?</div>
-                                    <input id="radio-wine" type="checkbox" name="radio-drinks" data-value=""
+                                    <input id="radio-wine" type="checkbox" name="radio-drinks[]" data-value=""
                                         value="wine" class="in10-input-radio">
                                     <label for="radio-wine" class="in10-radio__label">Вино</label>
 
-                                    <input id="radio-champagne" type="checkbox" name="radio-drinks" data-value=""
+                                    <input id="radio-champagne" type="checkbox" name="radio-drinks[]" data-value=""
                                         value="champagne" class="in10-input-radio">
                                     <label for="radio-champagne" class="in10-radio__label">Шампанское</label>
 
-                                    <input id="radio-cognac" type="checkbox" name="radio-drinks" data-value=""
+                                    <input id="radio-cognac" type="checkbox" name="radio-drinks[]" data-value=""
                                         value="cognac" class="in10-input-radio">
                                     <label for="radio-cognac" class="in10-radio__label">Коньяк</label>
 
-                                    <input id="radio-alcoholic" type="checkbox" name="radio-drinks" data-value=""
+                                    <input id="radio-alcoholic" type="checkbox" name="radio-drinks[]" data-value=""
                                         value="alcoholic" class="in10-input-radio">
                                     <label for="radio-alcoholic" class="in10-radio__label">Виски</label>
 
-                                    <input id="radio-vodka" type="checkbox" name="radio-drinks" data-value=""
+                                    <input id="radio-vodka" type="checkbox" name="radio-drinks[]" data-value=""
                                         value="vodka" class="in10-input-radio">
                                     <label for="radio-vodka" class="in10-radio__label">Водка</label>
 
-                                    <input id="radio-no-alcoholic" type="checkbox" name="radio-drinks" data-value=""
+                                    <input id="radio-no-alcoholic" type="checkbox" name="radio-drinks[]" data-value=""
                                         value="no-alcoholic" class="in10-input-radio">
                                     <label for="radio-no-alcoholic" class="in10-radio__label">Безалкогольное</label>
                                 </div>
@@ -396,19 +396,19 @@ Template Name: Home
                                 <!-- Вопрос 5 -->
                                 <div class="in10-survey__item_3">
                                     <div class="in10-survey__subtitle">Какая музыка Вам нравится?</div>
-                                    <input id="radio-pop" type="checkbox" name="radio-music" data-value="" value="pop"
+                                    <input id="radio-pop" type="checkbox" name="radio-music[]" data-value="" value="pop"
                                         class="in10-input-radio">
                                     <label for="radio-pop" class="in10-radio__label">Поп</label>
 
-                                    <input id="radio-classic" type="checkbox" name="radio-music" data-value=""
+                                    <input id="radio-classic" type="checkbox" name="radio-music[]" data-value=""
                                         value="classic" class="in10-input-radio">
                                     <label for="radio-classic" class="in10-radio__label">Классика</label>
 
-                                    <input id="radio-retro" type="checkbox" name="radio-music" data-value=""
+                                    <input id="radio-retro" type="checkbox" name="radio-music[]" data-value=""
                                         value="retro" class="in10-input-radio">
                                     <label for="radio-retro" class="in10-radio__label">Ретро</label>
 
-                                    <input id="radio-jazz" type="checkbox" name="radio-music" data-value="" value="jazz"
+                                    <input id="radio-jazz" type="checkbox" name="radio-music[]" data-value="" value="jazz"
                                         class="in10-input-radio">
                                     <label for="radio-jazz" class="in10-radio__label">Джас</label>
                                 </div>
