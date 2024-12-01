@@ -532,6 +532,7 @@ $query = new WP_Query($args);
                 <div class="in10-book__message">
                     <textarea name="form-message" placeholder="Ваше пожелание:" class="in10-message-text" rows="8"></textarea>
                 </div>
+                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                 <button type="submit" class="in10-book__btn in10-btn"><span>Отправить</span></button>
             </div>
         </form>
