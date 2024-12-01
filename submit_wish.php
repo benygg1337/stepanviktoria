@@ -116,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                         <table align="center" class="table-650" cellpadding="0" cellspacing="0" width="650">
                                             <tr>
                                                 <td align="center" style="padding-top: 40px; padding-bottom: 40px;">
-                                                    <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/merry-me.png" alt="Merry me <3">
+                                                    <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/merry-me.png" alt="Marry me <3">
                                                 </td>
                                             </tr>
                                         </table>
