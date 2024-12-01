@@ -1,7 +1,7 @@
 
 <?php wp_footer(); ?>
 
-<!-- <div class="popup popup_thanks">
+<div class="popup popup_thanks">
     <div class="popup__content">
         <div class="popup__body">
             <div class="popup__close"></div>
@@ -10,5 +10,5 @@
                  </div>
         </div>
     </div>
-</div> -->
+</div>
 </html>
