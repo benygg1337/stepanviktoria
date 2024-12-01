@@ -106,13 +106,13 @@ Template Name: Home
                         </div>
                         <div class=" in10-wishes__column">
                             <div class=" in10-wishes__block">
-                                <div class=" in10-wishes__image_1"><img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/wishes01.png"
+                                <div class=" in10-wishes__image_1"><img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/wishes01.png"
                                         alt="" />
                                 </div>
-                                <div class=" in10-wishes__image_2"><img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/wishes02.png"
+                                <div class=" in10-wishes__image_2"><img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/wishes02.png"
                                         alt="" />
                                 </div>
-                                <div class=" in10-wishes__image_3"><img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/wishes03.png"
+                                <div class=" in10-wishes__image_3"><img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/wishes03.png"
                                         alt="" />
                                 </div>
                             </div>
@@ -128,7 +128,7 @@ Template Name: Home
                     <div class=" in10-program__row">
                         <div class=" in10-program__item_1">
                             <div class=" in10-program__image">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/program01.svg" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/program01.svg" alt="" />
                             </div>
                             <div class=" in10-program__box">
                                 <div class=" in10-program__subtitle">Регистрация</div>
@@ -143,7 +143,7 @@ Template Name: Home
                         </div>
                         <div class=" in10-program__item_2">
                             <div class=" in10-program__image">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/program03.svg" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/program03.svg" alt="" />
                             </div>
                             <div class=" in10-program__box">
                                 <div class=" in10-program__subtitle">Прогулка</div>
@@ -157,7 +157,7 @@ Template Name: Home
                         </div>
                         <div class="in10-program__item_3">
                             <div class=" in10-program__image">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/program02.svg" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/program02.svg" alt="" />
                             </div>
                             <div class=" in10-program__box">
                                 <div class=" in10-program__subtitle">Welkom-зона</div>
@@ -173,7 +173,7 @@ Template Name: Home
                         </div>
                         <div class="in10-program__item_4">
                             <div class=" in10-program__image">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/program04.png" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/program04.png" alt="" />
                             </div>
                             <div class=" in10-program__box">
                                 <div class=" in10-program__subtitle">Банкет</div>
@@ -189,7 +189,7 @@ Template Name: Home
                         </div>
                         <div class="in10-program__item_5">
                             <div class=" in10-program__image">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/program05.png" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/program05.png" alt="" />
                             </div>
                             <div class=" in10-program__box">
                                 <div class=" in10-program__subtitle">Завершение вечера</div>
@@ -207,7 +207,7 @@ Template Name: Home
 
             <!-- Место, где мы скажем «Да» -->
             <section class=" in10-full-screen">
-                <div class=" in10-full-screen__image"><img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/full-screen.jpg" alt="" /></div>
+                <div class=" in10-full-screen__image"><img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/full-screen.jpg" alt="" /></div>
                 <div class=" in10-full-screen__text">Место, где мы скажем «Да»</div>
             </section>
 
@@ -440,10 +440,10 @@ Template Name: Home
                     <div class=" in10-fashion__row">
                         <div class=" in10-fashion__column">
                             <div class="in10-fashion__image">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion.jpg" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion.jpg" alt="" />
                             </div>
                             <div class="in10-fashion__image-2">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion2.jpg" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion2.jpg" alt="" />
                             </div>
                         </div>
                         <div class=" in10-fashion__column">
@@ -459,19 +459,19 @@ Template Name: Home
                                 <div class="in10-fashion__col-block">
                                     <div class="in10-fashion__cover">ДЛЯ ДЕВУШЕК</div>
                                     <div class="in10-fashion__col">
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color1.svg" alt="" />
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color2.svg" alt="" />
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color3.svg" alt="" />
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color4.svg" alt="" />
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color5.svg" alt="" />
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color6.svg" alt="" />
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color1.svg" alt="" />
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color2.svg" alt="" />
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color3.svg" alt="" />
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color4.svg" alt="" />
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color5.svg" alt="" />
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color6.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="in10-fashion__col-block">
                                     <div class="in10-fashion__cover">ДЛЯ МУЖЧИН
                                     </div>
                                     <div class="in10-fashion__col">
-                                        <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color7.svg" alt="" />
+                                        <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/color7.svg" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -546,16 +546,16 @@ $query = new WP_Query($args);
                 <div class=" in10-gallery__title  in10-title">Галерея<span></span></div>
                 <div class=" in10-gallery__gallery">
                     <div class=" in10-gallery__item">
-                        <div class=" in10-gallery__image"><img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.png" alt="" /></div>
+                        <div class=" in10-gallery__image"><img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.png" alt="" /></div>
                     </div>
                     <div class=" in10-gallery__item">
-                        <div class=" in10-gallery__image"><img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.png" alt="" /></div>
+                        <div class=" in10-gallery__image"><img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.png" alt="" /></div>
                     </div>
                     <div class=" in10-gallery__item">
-                        <div class=" in10-gallery__image"><img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.png" alt="" /></div>
+                        <div class=" in10-gallery__image"><img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.png" alt="" /></div>
                     </div>
                     <div class=" in10-gallery__item">
-                        <div class=" in10-gallery__image"><img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery04.png" alt="" /></div>
+                        <div class=" in10-gallery__image"><img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery04.png" alt="" /></div>
                     </div>
                 </div>
                 <a href="#in10-gallery" class="in10-gallery__btn in10-btn ">Фотографии будут позже</a>
@@ -569,7 +569,7 @@ $query = new WP_Query($args);
                         <div class=" in10-contacts__column">
                             <div class=" in10-contacts__block_dec1">
                                 <div class=" in10-contacts__image">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/contacts01.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/contacts01.jpg" alt="" />
                                 </div>
                                 <div class=" in10-contacts__item">
                                     <div class=" in10-contacts__name">
@@ -583,7 +583,7 @@ $query = new WP_Query($args);
                         <div class=" in10-contacts__column">
                             <div class=" in10-contacts__block_dec2">
                                 <div class=" in10-contacts__image">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/contacts02.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/contacts02.jpg" alt="" />
                                 </div>
                                 <div class=" in10-contacts__item">
                                     <div class=" in10-contacts__name">
@@ -599,7 +599,7 @@ $query = new WP_Query($args);
                         <div class=" in10-contacts__column">
                             <div class=" in10-contacts__block_dec3">
                                 <div class=" in10-contacts__image">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/contacts03.jpg" alt="" />
+                                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/contacts03.jpg" alt="" />
                                 </div>
                                 <div class=" in10-contacts__item">
                                     <div class=" in10-contacts__name">
@@ -619,50 +619,50 @@ $query = new WP_Query($args);
         <div class="popup__content">
             <div class="popup__body _gallery">
                 <div class="popup__close"></div>
-                <a href="img/invitation_no_10/gallery01.jpg" class="in10-gallery__image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" class="in10-gallery__image">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery02.jpg" class="in10-gallery__image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" class="in10-gallery__image">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery03.jpg" class="in10-gallery__image ">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" class="in10-gallery__image ">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery04.jpg" class="in10-gallery__image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery04.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery04.jpg" class="in10-gallery__image">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery04.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery02.jpg" class="in10-gallery__image ">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" class="in10-gallery__image ">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery03.jpg" class="in10-gallery__image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" class="in10-gallery__image">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery01.jpg" class="in10-gallery__image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" class="in10-gallery__image">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery04.jpg" class="in10-gallery__image ">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery04.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery04.jpg" class="in10-gallery__image ">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery04.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery03.jpg" class="in10-gallery__image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" class="in10-gallery__image">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery01.jpg" class="in10-gallery__image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" class="in10-gallery__image">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery02.jpg" class="in10-gallery__image ">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" class="in10-gallery__image ">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery03.jpg" class="in10-gallery__image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" class="in10-gallery__image">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery03.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery01.jpg" class="in10-gallery__image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" class="in10-gallery__image">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery01.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery02.jpg" class="in10-gallery__image">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" class="in10-gallery__image">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery02.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/gallery04.jpg" class="in10-gallery__image ">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery04.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery04.jpg" class="in10-gallery__image ">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/gallery04.jpg" alt="">
                 </a>
             </div>
         </div>
@@ -672,26 +672,26 @@ $query = new WP_Query($args);
         <div class="popup__content">
             <div class="popup__body _gallery">
                 <div class="popup__close"></div>
-                <a href="img/invitation_no_10/fashion01.jpg" class="in10-fashion__image-fashion">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion01.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion01.jpg" class="in10-fashion__image-fashion">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion01.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/fashion02.jpg" class="in10-fashion__image-fashion">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion02.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion02.jpg" class="in10-fashion__image-fashion">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion02.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/fashion03.jpg" class="in10-fashion__image-fashion">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion03.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion03.jpg" class="in10-fashion__image-fashion">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion03.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/fashion04.jpg" class="in10-fashion__image-fashion">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion04.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion04.jpg" class="in10-fashion__image-fashion">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion04.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/fashion05.jpg" class="in10-fashion__image-fashion">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion05.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion05.jpg" class="in10-fashion__image-fashion">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion05.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/fashion06.jpg" class="in10-fashion__image-fashion">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion06.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion06.jpg" class="in10-fashion__image-fashion">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion06.jpg" alt="">
                 </a>
-                <a href="img/invitation_no_10/fashion07.jpg" class="in10-fashion__image-fashion">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion07.jpg" alt="">
+                <a href="img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion07.jpg" class="in10-fashion__image-fashion">
+                    <img src="<?php bloginfo('template_url'); ?>/assets/img src="<?php bloginfo('template_url'); ?>/assets/img/invitation_no_10/fashion07.jpg" alt="">
                 </a>
             </div>
         </div>
