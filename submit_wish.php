@@ -116,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                         <table align="center" class="table-650" cellpadding="0" cellspacing="0" width="650">
                                             <tr>
                                                 <td align="center" style="padding-top: 40px; padding-bottom: 40px;">
-                                                    <img src="https://third.devdiman69.ru//wp-content/themes/third/assets/img/merry-me.png" alt="Merry me <3">
+                                                    <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/merry-me.png" alt="Merry me <3">
                                                 </td>
                                             </tr>
                                         </table>
@@ -134,7 +134,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                         <table align="center" class="table-650" cellpadding="0" cellspacing="0" width="650">
                                             <tr>
                                                 <td align="center" style="padding-top: 25px; padding-bottom: 40px;">
-                                                    <img src="https://third.devdiman69.ru//wp-content/themes/third/assets/img/img-1.png" alt="main-img" width="650">
+                                                    <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/img-1.png" alt="main-img" width="650">
                                                 </td>
                                             </tr>
                                             <tr>
@@ -188,10 +188,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                                         Мы в соцсетях
                                                     </p>
                                                     <a href="#" style="display: inline-block; margin-right: 20px;"> 
-                                                        <img src="https://third.devdiman69.ru//wp-content/themes/third/assets/img/vk.png" alt="vk">
+                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/vk.png" alt="vk">
                                                     </a>
                                                     <a href="#" style="display: inline-block;">
-                                                        <img src="https://third.devdiman69.ru//wp-content/themes/third/assets/img/telegram.png" alt="vk">
+                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/telegram.png" alt="vk">
                                                     </a>
                                                 </td>
                                                 <td align="center">
@@ -199,16 +199,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                                         Если у Вас есть вопросы, напишите нам удобным для Вас способом
                                                     </p>
                                                     <a href="#" style="display: inline-block; margin-right: 20px;">
-                                                        <img src="https://third.devdiman69.ru//wp-content/themes/third/assets/img/whatsapp.png" alt="whatsapp">
+                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/whatsapp.png" alt="whatsapp">
                                                     </a>
                                                     <a href="#" style="display: inline-block; margin-right: 20px;">
-                                                        <img src="https://third.devdiman69.ru//wp-content/themes/third/assets/img/vk.png" alt="vk">
+                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/vk.png" alt="vk">
                                                     </a>
                                                     <a href="#" style="display: inline-block; margin-right: 20px;">
-                                                        <img src="https://third.devdiman69.ru//wp-content/themes/third/assets/img/telegram.png" alt="telegram">
+                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/telegram.png" alt="telegram">
                                                     </a>
                                                     <a href="#" style="display: inline-block;">
-                                                        <img src="https://third.devdiman69.ru//wp-content/themes/third/assets/img/email.png" alt="email">
+                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/email.png" alt="email">
                                                     </a>
                                                 </td>
                                             </tr>
