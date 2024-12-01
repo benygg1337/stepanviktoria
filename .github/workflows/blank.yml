@@ -1,5 +1,5 @@
 env:
-  PROD_HOST: server198.hosting.reg.ru
+  PROD_HOST: server267.hosting.reg.ru
   PROD_PATH: /var/www/u2923612/data/www/stepanviktoria.ru/wp-content/themes/stepanviktoria
   PROD_USER: u2923612
 # fix
