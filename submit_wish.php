@@ -14,12 +14,12 @@ function writeLog($message) {
     file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
 }
 
-function writeResponseLog($response)
-{
-    global $logFile;
+function writeResponseLog($response) {
+    $logFile = __DIR__ . '/logfilewish.txt'; // Убедитесь, что файл существует
     $logMessage = "[" . date("Y-m-d H:i:s") . " form_by_survey] Response: " . $response . PHP_EOL;
     file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
 }
+
 
 // Актуальная функция для проверки reCAPTCHA
 function checkRecaptcha($response)
