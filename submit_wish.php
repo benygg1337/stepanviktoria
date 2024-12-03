@@ -8,9 +8,8 @@ require __DIR__ . '/php/Exception.php';
 require_once('../../../wp-load.php');
 
 // Функция для записи логов
-function writeLog($message)
-{
-    global $logFile;
+function writeLog($message) {
+    $logFile = __DIR__ . '/logfilewish.txt'; // Файл будет создан в том же каталоге, что и ваш PHP-скрипт
     $logMessage = "[" . date("Y-m-d H:i:s") . "] " . $message . PHP_EOL;
     file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
 }
