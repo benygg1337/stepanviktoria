@@ -34,7 +34,7 @@
             <div class="popup__body">
                 <div class="popup__close"></div>
                 <div class="thanks__title in10-title">Спасибо!</div>
-                <div class="thanks__text">Ваше мнение важно для нас.<br>
+                <div class="thanks__text">Ваше сообщение отправлено<br>
                 </div>
             </div>
         </div>

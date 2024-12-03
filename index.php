@@ -389,7 +389,7 @@ Template Name: Home
                                         value="yes" class="in10-input-radio">
                                     <label for="radio-registry-yes" class="in10-radio__label">Да</label>
 
-                                    <input id="radio-registry-no " type="radio" name="radio-registry" data-value=""
+                                    <input id="radio-registry-no" type="radio" name="radio-registry" data-value=""
                                         value="no" class="in10-input-radio">
                                     <label for="radio-registry-no" class="in10-radio__label">К сожалению, нет</label>
                                 </div>
