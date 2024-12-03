@@ -450,11 +450,7 @@ Template Name: Home
                         <div class=" in10-fashion__column">
                             <div class=" in10-fashion__title  in10-title">Дресс-код<span></span></div>
                             <div class=" in10-fashion__text">
-                                <p> Друзья, дресс-код у нас будет полный fashion. Яркие образы перья, стразы, органза.
-                                    Все
-                                    приветствуется.</p>
-                                <p>Ниже небольшие рекомендации по стилю. Будем очень благодарны, если Вы их поддержите
-                                </p>
+                                <p> Будем признательны, если Вы поддержите палитру нашего торжества при выборе своего наряда.</p>
                             </div>
                             <div class="in10-fashion__body-cov">
                                 <div class="in10-fashion__col-block">
