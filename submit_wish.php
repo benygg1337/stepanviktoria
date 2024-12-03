@@ -298,10 +298,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $mail->Body = $html_message;
 
             try {
-                $mail->send();
-                // Письмо успешно отправлено
+                if ($mail->send()) {
+                    // Успешная отправка письма
+                    $data['result'] = "success";
+                    $data['info'] = "Пожелание успешно создано и будет опубликовано в ближайшее время!";
+                    writeLog("Письмо успешно отправлено с пожеланием ID: {$post_id}");
+                } else {
+                    // Ошибка при отправке письма
+                    $data['result'] = "error";
+                    $data['info'] = "Ошибка при отправке письма: " . $mail->ErrorInfo;
+                    writeLog("Ошибка отправки письма: " . $mail->ErrorInfo);
+                }
             } catch (Exception $e) {
-                // Ошибка отправки письма
+                // Обработка исключения (ошибка PHPMailer)
+                $data['result'] = "error";
+                $data['info'] = "Ошибка при отправке письма: " . $e->getMessage();
+                writeLog("Исключение при отправке письма: " . $e->getMessage());
             }
 
             // Возвращаем ответ в формате JSON
