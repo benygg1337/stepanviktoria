@@ -5177,3 +5177,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .page {
   flex: 1 1 auto;
 }
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
