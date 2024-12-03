@@ -7,6 +7,62 @@ require __DIR__ . '/php/Exception.php';
 // Подключаем файл wp-load.php для работы с WordPress функциями
 require_once('../../../wp-load.php');
 
+// Актуальная функция для проверки reCAPTCHA
+function checkRecaptcha($response)
+{
+    define('SECRET_KEY', '6LePpo8qAAAAAE6OzuRMBG1W4HT2HIDNHwfXZ7fV');
+    $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+    $recaptcha_data = [
+        'secret' => SECRET_KEY,
+        'response' => $response
+    ];
+
+    $recaptcha_options = [
+        'http' => [
+            'header' => "Content-type: application/x-www-form-urlencoded\r\n",
+            'method' => 'POST',
+            'content' => http_build_query($recaptcha_data)
+        ]
+    ];
+
+    $recaptcha_context = stream_context_create($recaptcha_options);
+    $recaptcha_result = file_get_contents($recaptcha_url, false, $recaptcha_context);
+    $recaptcha_json = json_decode($recaptcha_result);
+
+    return $recaptcha_json;
+
+}
+
+//Проверка reCAPTCHA
+if (isset($_POST['g-recaptcha-response'])) {
+    $recaptcha_response = $_POST['g-recaptcha-response'];
+    $recaptcha_json = checkRecaptcha($recaptcha_response);
+    $data['info_captcha'] = $recaptcha_json;
+
+    if (!$recaptcha_json->success || $recaptcha_json->score < 0.6) {
+        $data['result'] = "error";
+        $data['errorType'] = "captcha";
+        $data['info'] = "Ошибка проверки reCAPTCHA";
+        $data['desc'] = "Вы являетесь роботом!";
+        // Отправка результата
+        header('Content-Type: application/json');
+        echo json_encode($data);
+        writeLog("Ошибка отправки письма: {$data['desc']}");
+        writeResponseLog(json_encode($data));
+        exit();
+    }
+
+} else {
+    $data['result'] = "error";
+    $data['errorType'] = "captcha";
+    $data['info'] = "Ошибка проверки reCAPTCHA";
+    $data['desc'] = "Код reCAPTCHA не был отправлен";
+    // Отправка результата
+    header('Content-Type: application/json');
+    echo json_encode($data);
+    exit();
+}
+
 // Проверяем, была ли отправлена форма
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Проверяем, есть ли данные в форме

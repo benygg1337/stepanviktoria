@@ -3098,6 +3098,7 @@ textarea.in10-input {
 @media (max-width: 991.98px) {
   .in10-fashion__row {
     flex-direction: column-reverse;
+    display: inline-flex;
   }
 }
 .in10-fashion__column {
@@ -3248,6 +3249,11 @@ textarea.in10-input {
 .in10-fashion__col img {
   width: 48px;
   margin: 0px 0px 0px 15px;
+}
+@media (max-width: 479.98px) {
+  .in10-fashion__col img {
+    width: 35px;
+  }
 }
 .in10-fashion__title2 {
   margin: 50px 0px 30px 0px;
@@ -4106,6 +4112,24 @@ textarea.in10-input {
     width: 35px;
     height: 35px;
   }
+}
+
+.in10-survey__form::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(51, 51, 51, 0.9) url("../img/invitation_no_10/loading.gif") center/50px no-repeat;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.in10-survey__form._sending::after {
+  opacity: 1;
+  visibility: visible;
 }
 
 .lg-actions .lg-next,
