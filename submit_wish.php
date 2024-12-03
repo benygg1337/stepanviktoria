@@ -14,12 +14,12 @@ function writeLog($message) {
     file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
 }
 
-function writeResponseLog($response) {
+function writeResponseLog($response)
+{
     $logFile = __DIR__ . '/logfilewish.txt'; // Убедитесь, что файл существует
     $logMessage = "[" . date("Y-m-d H:i:s") . " form_by_survey] Response: " . $response . PHP_EOL;
     file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
 }
-
 
 // Актуальная функция для проверки reCAPTCHA
 function checkRecaptcha($response)
@@ -44,34 +44,30 @@ function checkRecaptcha($response)
     $recaptcha_json = json_decode($recaptcha_result);
 
     return $recaptcha_json;
-
 }
 
-//Проверка reCAPTCHA
+// Проверка reCAPTCHA
 if (isset($_POST['g-recaptcha-response'])) {
     $recaptcha_response = $_POST['g-recaptcha-response'];
     $recaptcha_json = checkRecaptcha($recaptcha_response);
     $data['info_captcha'] = $recaptcha_json;
 
-    if (!$recaptcha_json->success || $recaptcha_json->score < 0.6) {
+    if (!$recaptcha_json->success || (isset($recaptcha_json->score) && $recaptcha_json->score < 0.6)) {
         $data['result'] = "error";
         $data['errorType'] = "captcha";
         $data['info'] = "Ошибка проверки reCAPTCHA";
-        $data['desc'] = "Вы являетесь роботом!";
-        // Отправка результата
+        $data['desc'] = "Вы являетесь роботом или уровень доверия слишком низкий.";
+        writeLog("Ошибка reCAPTCHA: " . json_encode($recaptcha_json));
         header('Content-Type: application/json');
         echo json_encode($data);
-        writeLog("Ошибка отправки письма: {$data['desc']}");
-        writeResponseLog(json_encode($data));
         exit();
     }
-
 } else {
     $data['result'] = "error";
     $data['errorType'] = "captcha";
     $data['info'] = "Ошибка проверки reCAPTCHA";
-    $data['desc'] = "Код reCAPTCHA не был отправлен";
-    // Отправка результата
+    $data['desc'] = "Код reCAPTCHA не был отправлен.";
+    writeLog("Ошибка reCAPTCHA: код не отправлен.");
     header('Content-Type: application/json');
     echo json_encode($data);
     exit();
@@ -195,7 +191,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             </table>
                         </td>
                     </tr>
-
                     <tr>
                         <td style="padding-bottom: 100px; border-bottom: 1px solid #00000059;">
                             <table align="center" class="table-700" cellpadding="0" cellspacing="0" width="700" bgcolor="#F2EEEB">
@@ -226,60 +221,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                                                 </p>
                                                             </td>
                                                         </tr>
-                                                        <tr>
-                                                            <td align="center" style="padding-bottom: 32px;">
-                                                                <a href="' . $confirmUrl . '" style="display: inline-block; width: 270px; margin-right: 32px; padding-top: 12px; padding-bottom: 12px; border: 1px solid #03CE48; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; background-color: #03CE48; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #FFFFFF; font-size: 18px; line-height: 20px; text-align: center; text-decoration: none;">
-                                                                    Опубликовать пожелание
-                                                                </a>
-                                                                <a href="' . $deleteUrl . '" style="display: inline-block; width: 270px; padding-top: 12px; padding-bottom: 12px; border: 1px solid #C92222; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; background-color: #FF0707; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #FFFFFF; font-size: 18px; line-height: 20px; text-align: center; text-decoration: none;">
-                                                                    Удалить пожелание
-                                                                </a>
-                                                            </td>
-                                                        </tr>
                                                     </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td style="padding-top: 50px; padding-bottom: 70px;">
-                            <table align="center" class="table-650" cellpadding="0" cellspacing="0" width="650" bgcolor="#F2EEEB">
-                                <tr>
-                                    <td>
-                                        <table align="center" class="table-600" cellpadding="0" cellspacing="0" width="600">
-                                            <tr>
-                                                <td align="center">
-                                                    <p style="display: block; width: 150px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #00000070; font-size: 18px; line-height: 20px;">
-                                                        Мы в соцсетях
-                                                    </p>
-                                                    <a href="#" style="display: inline-block; margin-right: 20px;"> 
-                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/vk.png" alt="vk">
-                                                    </a>
-                                                    <a href="#" style="display: inline-block;">
-                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/telegram.png" alt="vk">
-                                                    </a>
-                                                </td>
-                                                <td align="center">
-                                                    <p style="display: block; width: 350px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: #00000070; font-size: 18px; line-height: 20px;">
-                                                        Если у Вас есть вопросы, напишите нам удобным для Вас способом
-                                                    </p>
-                                                    <a href="#" style="display: inline-block; margin-right: 20px;">
-                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/whatsapp.png" alt="whatsapp">
-                                                    </a>
-                                                    <a href="#" style="display: inline-block; margin-right: 20px;">
-                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/vk.png" alt="vk">
-                                                    </a>
-                                                    <a href="#" style="display: inline-block; margin-right: 20px;">
-                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/telegram.png" alt="telegram">
-                                                    </a>
-                                                    <a href="#" style="display: inline-block;">
-                                                        <img src="https://stepanviktoria.ru//wp-content/themes/stepanviktoria/assets/img/email.png" alt="email">
-                                                    </a>
                                                 </td>
                                             </tr>
                                         </table>
@@ -299,30 +241,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             try {
                 if ($mail->send()) {
-                    // Успешная отправка письма
                     $data['result'] = "success";
-                    $data['info'] = "Пожелание успешно создано и будет опубликовано в ближайшее время!";
-                    writeLog("Письмо успешно отправлено с пожеланием ID: {$post_id}");
+                    $data['info'] = "Пожелание успешно создано и будет опубликовано.";
                 } else {
-                    // Ошибка при отправке письма
                     $data['result'] = "error";
-                    $data['info'] = "Ошибка при отправке письма: " . $mail->ErrorInfo;
-                    writeLog("Ошибка отправки письма: " . $mail->ErrorInfo);
+                    $data['info'] = "Ошибка отправки письма: " . $mail->ErrorInfo;
                 }
             } catch (Exception $e) {
-                // Обработка исключения (ошибка PHPMailer)
                 $data['result'] = "error";
-                $data['info'] = "Ошибка при отправке письма: " . $e->getMessage();
-                writeLog("Исключение при отправке письма: " . $e->getMessage());
+                $data['info'] = "Ошибка: " . $e->getMessage();
             }
 
-            // Возвращаем ответ в формате JSON
-            echo json_encode(array('success' => true, 'message' => 'Пожелание успешно создано и будет опубликовано в ближайшее время!'));
-        } else {
-            // Возвращаем ответ в формате JSON в случае ошибки
-            echo json_encode(array('success' => false, 'message' => 'Ошибка при создании пожелания.'));
+            header('Content-Type: application/json');
+            echo json_encode($data);
         }
-        exit; // Обязательно завершите выполнение скрипта после вывода JSON
     }
 }
 ?>
