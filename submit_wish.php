@@ -7,6 +7,21 @@ require __DIR__ . '/php/Exception.php';
 // Подключаем файл wp-load.php для работы с WordPress функциями
 require_once('../../../wp-load.php');
 
+// Функция для записи логов
+function writeLog($message)
+{
+    global $logFile;
+    $logMessage = "[" . date("Y-m-d H:i:s") . "] " . $message . PHP_EOL;
+    file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
+}
+
+function writeResponseLog($response)
+{
+    global $logFile;
+    $logMessage = "[" . date("Y-m-d H:i:s") . " form_by_survey] Response: " . $response . PHP_EOL;
+    file_put_contents($logFile, $logMessage, FILE_APPEND | LOCK_EX);
+}
+
 // Актуальная функция для проверки reCAPTCHA
 function checkRecaptcha($response)
 {
